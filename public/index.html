@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İngilizce Metin Oluşturucu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">İNGİLİZCE PRATİK</div>
+    <p class="centered" style="color:red;opacity:80%;">Lütfen cevabınızı Google Translate ile karşılaştırın.</p>
+    <div class="genTextArea" id="genText">
+        <p>Metin burada oluşturulacak</p>
+    </div>
+    <button type="button" id="generate" class="oButton block">Oluştur</button>
+    <hr style="background-color:black;margin-bottom:50px;" size="2px" noshade>
+    <!--<p class="centered">Cevabı aşağıdaki kutucuğa yazınız.</p>-->
+    <div class="genTextArea">
+        <!--<input type="text" id="answered" placeholder="Enter answer here">-->
+        <textarea class="text" id="answered" placeholder="Cevabınızı buraya giriniz"></textarea>
+    </div>
+    <div class="centered">
+        <button type="button" id="sendButton" class="oButton">Test Et</button>
+        <button type="button" id="submitButton" class="oButton">Gönder</button>
+    </div>
+    
+    <script src="./index.js">
+    </script>
+</body>
+</html>
